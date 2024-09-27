@@ -9,7 +9,7 @@ k = 0
 
 # Loop enquanto k for menor que int_INDICE
 while k < int_INDICE:
-    k += 1              # Incrementa k em 1 a cada iteração
+    k += 1              # Incrementa k em 1 a cada iteração.
     soma += k          # Adiciona o valor atual de k à soma
     print(soma, end=' ')  # Imprime o valor atual da soma, sem pular para a próxima linha
 

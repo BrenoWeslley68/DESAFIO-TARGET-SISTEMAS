@@ -8,7 +8,7 @@ def inverter_string(s):
 # Entrada do usuário ou string pré-definida
 entrada_usuario = input("Informe uma string para inverter (ou pressione Enter para usar a padrão): ")
 if entrada_usuario.strip() == "":
-    entrada_usuario = "Hello, World!"  # String padrão
+    entrada_usuario = "Hello, World!"  # String padrão.
 
 # Inverter a string
 resultado = inverter_string(entrada_usuario)

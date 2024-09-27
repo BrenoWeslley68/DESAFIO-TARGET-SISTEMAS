@@ -14,7 +14,7 @@ def verifica(num):
     # Chama a função fibonacci para gerar a sequência até o número informado
     sequencia = fibonacci(num)
 
-    # Verifica se o número está na sequência gerada
+    # Verifica se o número está na sequência gerada.
     if num in sequencia:
         print(f'O número {num} pertence à sequência de Fibonacci.')
     else:

@@ -6,7 +6,7 @@ def calcular_porcentagem(parte, total):
         return 0  # Retorna 0% se o total for zero para evitar divisão por zero.
     return (parte / total) * 100  # Retorna a porcentagem calculada.
 
-# Calcula o total de contribuição somando os faturamentos de todos os estados.
+# Calcula o total de contribuição somando os faturamentos de todos os estados
 total_contribuicao = estados[0]['Faturamento'] + estados[1]['Faturamento'] + estados[2]['Faturamento'] + estados[3]['Faturamento'] + estados[4]['Faturamento']
 
 # Calcula a contribuição percentual de cada estado em relação ao total de contribuição.

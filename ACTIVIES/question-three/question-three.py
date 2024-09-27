@@ -17,7 +17,7 @@ def calcular_faturamento(faturamento):
     # Calcula a média dos valores de faturamento válidos
     media = sum(faturamentoValido) / len(faturamentoValido)
 
-    # Conta quantos dias têm faturamento acima da média
+    # Conta quantos dias têm faturamento acima da média.
     dias_Acima_media = 0
     for valor in faturamentoValido:
         if valor > media:
